@@ -13,7 +13,22 @@ body{
     min-width: 380px;
     margin:30px auto;
 }
+#btnc{
+    float:right;
+    margin-top:5px;
+    width:100px;
+    height:30px;
+    border:1px solid #FF8C00;
+    background-color: #fbf9fe;
+    color:#FF8C00;
+    border-radius: 8px;
+}
 h1{
+    text-align: center;
+    color:#FF8C00;
+    /*margin-bottom:30px;*/
+}
+h3{
     text-align: center;
     color:#FF8C00;
     margin-bottom:30px;
@@ -60,7 +75,7 @@ td span{
     margin:0 auto;
     width:36px;
     display: block;
-    padding: 7px 0;
+    padding: 8px 0;
     text-align: center;
 }
 

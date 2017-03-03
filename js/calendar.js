@@ -152,3 +152,19 @@ var calendar = new drawCalendar();
 calendar.fillNavbar();
 calendar.fillBody();
 calendar.bindEvent();
+
+function changestyle(){
+	var change = $("btnc");
+	var one = $("one");
+	var two = $("two");
+	if(change.innerHTML == '显示所有月份'){
+		change.innerHTML = '仅显示单月历';
+		one.style.display = 'none';
+		two.style.display = 'block';
+	}
+	else{
+		change.innerHTML = '显示所有月份';
+		one.style.display = 'block';
+		two.style.display = 'none';
+	}
+}
