@@ -1,7 +1,7 @@
-# WebappSchoolCalendar
+#WebappSchoolCalendar
 
-2017年春季校历  -- 简陋版
+2017春季校历 ——— 简陋版 2017/02/25
 
-html/js实现
+2016-2017学年度第二学期 —— 改进版1  2017/03/03
 
 by heal7

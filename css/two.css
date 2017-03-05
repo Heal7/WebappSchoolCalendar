@@ -1,0 +1,81 @@
+*{
+	margin:0;
+	padding:0;
+}
+.calendarcontainer{
+	text-align: center;
+}
+.twoTable{
+	width:100%;
+	margin-top:25px;
+	position: relative;
+}
+.monthName{
+	float:left;
+	margin:10px;
+	width:50px;
+	height:30px;
+	line-height: 30px;
+	color:#5c64e1;
+	border-left:5px solid #5c64e1;
+}
+.weekName{
+	color:#5c64e1;
+	height: 50px;
+	line-height: 50px;
+}
+.weekNum{
+	color:#5c64e1;
+	font-weight: bold;
+	position: absolute;
+	left:20px;
+	padding-top:20px;
+}
+.twoTable th{
+	justify-content: space-around;
+}
+.twoTable td{
+	width:12.5%;
+	justify-content: space-around;
+	text-align: center;
+	align-items: flex-start;
+	height:60px;
+	margin-top:0;
+	vertical-align: middle;
+	font-weight:590;
+}
+.twoTable td span{
+	height:20px;
+	width:50px;
+	margin:0 auto;
+    display: block;
+    text-align: center;
+}
+.desc{
+	color:#FF0000;
+	/*font-weight: bold;*/
+}
+.title{
+	font-size: 13px;
+}
+.twoTable td:nth-child(7){
+	color:#FF8C00;
+}
+.twoTable td:nth-child(8){
+	color:#FF8C00;
+}
+.twoTable:nth-child(1) tr:last-child{
+	display: none;
+}
+.twoTable:nth-child(2) tr:last-child{
+	display: none;
+}
+.twoTable:nth-child(3) tr:last-child{
+	display: none;
+}
+.twoTable:nth-child(4) tr:last-child{
+	display: none;
+}
+.twoTable:nth-child(5) tr:last-child{
+	display: none;
+}
